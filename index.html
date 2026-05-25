@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - محفظتي الشخصية</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>LWLB</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">الرئيسية</a></li>
+                <li><a href="#about" class="nav-link">عني</a></li>
+                <li><a href="#projects" class="nav-link">المشاريع</a></li>
+                <li><a href="#contact" class="nav-link">تواصل</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">مرحباً بك في عالمي الرقمي</h1>
+            <p class="hero-subtitle">مطور ويب | مصمم | مبتكر</p>
+            <p class="hero-description">أنشئ تجارب رقمية استثنائية تترك أثراً دائماً</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">استكشف أعمالي</a>
+                <a href="#contact" class="btn btn-secondary">تواصل معي</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="floating-shape"></div>
+            <div class="floating-shape shape-2"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">عني</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>أنا مطور ويب شغوف بإنشاء مواقع وتطبيقات ويب مذهلة وفعالة. أتمتع بحل المشاكل التقنية والعمل على مشاريع مبتكرة.</p>
+                    <p>لدي خبرة في تطوير الواجهات الأمامية والخلفية، مع التركيز على تجربة المستخدم والأداء العالي.</p>
+                    
+                    <h3>المهارات:</h3>
+                    <div class="skills">
+                        <span class="skill">HTML</span>
+                        <span class="skill">CSS</span>
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">React</span>
+                        <span class="skill">Python</span>
+                        <span class="skill">Git</span>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>50+</h3>
+                        <p>مشروع مكتمل</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>رضا العملاء</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>5+</h3>
+                        <p>سنوات خبرة</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">أحدث المشاريع</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>موقع تجارة إلكترونية</h3>
+                    <p>موقع متجر شامل مع نظام دفع آمن وإدارة منتجات متقدمة</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="#" class="project-link">عرض المشروع <i class="fas fa-arrow-left"></i></a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>تطبيق إدارة المهام</h3>
+                    <p>تطبيق ويب لإدارة المشاريع والمهام بكفاءة عالية</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>Firebase</span>
+                        <span>CSS</span>
+                    </div>
+                    <a href="#" class="project-link">عرض المشروع <i class="fas fa-arrow-left"></i></a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>معرض الصور الذكي</h3>
+                    <p>منصة لعرض ومشاركة الصور بتأثيرات بصرية مذهلة</p>
+                    <div class="project-tags">
+                        <span>JavaScript</span>
+                        <span>CSS Animation</span>
+                        <span>Responsive</span>
+                    </div>
+                    <a href="#" class="project-link">عرض المشروع <i class="fas fa-arrow-left"></i></a>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>لوحة تحكم التحليلات</h3>
+                    <p>لوحة تحكم متقدمة لتحليل البيانات والإحصائيات</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>Charts</span>
+                        <span>API</span>
+                    </div>
+                    <a href="#" class="project-link">عرض المشروع <i class="fas fa-arrow-left"></i></a>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>تطبيق الطقس</h3>
+                    <p>تطبيق ويب للحصول على بيانات الطقس الحالية والتنبؤات</p>
+                    <div class="project-tags">
+                        <span>API</span>
+                        <span>JavaScript</span>
+                        <span>Responsive</span>
+                    </div>
+                    <a href="#" class="project-link">عرض المشروع <i class="fas fa-arrow-left"></i></a>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-blog"></i>
+                    </div>
+                    <h3>منصة المدونة</h3>
+                    <p>منصة تدوين حديثة مع نظام تعليقات وتقييمات</p>
+                    <div class="project-tags">
+                        <span>CMS</span>
+                        <span>Database</span>
+                        <span>Backend</span>
+                    </div>
+                    <a href="#" class="project-link">عرض المشروع <i class="fas fa-arrow-left"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">تواصل معي</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>دعنا ننشئ شيئاً رائعاً معاً!</h3>
+                    <p>هل لديك مشروع في الذهن؟ تواصل معي وسأساعدك في تحقيق رؤيتك.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>البريد الإلكتروني</h4>
+                                <p>your.email@example.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>الهاتف</h4>
+                                <p>+966 xx xxx xxxx</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>الموقع</h4>
+                                <p>السعودية</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="اسمك الكامل" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="بريدك الإلكتروني" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="موضوع الرسالة" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="رسالتك..." rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 LWLB Portfolio. جميع الحقوق محفوظة.</p>
+            <p>تم إنشاؤه بـ ❤️ باستخدام HTML و CSS و JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
